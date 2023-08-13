@@ -1,0 +1,602 @@
+[
+    {
+        "download_count": 719072639,
+        "project": "boto3",
+        "link": "https:\/\/pypi.org\/project\/boto3\/",
+        "github_link": "https:\/\/github.com\/boto\/boto3"
+    },
+    {
+        "download_count": 329215565,
+        "project": "urllib3",
+        "link": "https:\/\/pypi.org\/project\/urllib3\/",
+        "github_link": "https:\/\/github.com\/urllib3\/urllib3"
+    },
+    {
+        "download_count": 320415214,
+        "project": "botocore",
+        "link": "https:\/\/pypi.org\/project\/botocore\/",
+        "github_link": "https:\/\/github.com\/boto\/botocore"
+    },
+    {
+        "download_count": 284144318,
+        "project": "requests",
+        "link": "https:\/\/pypi.org\/project\/requests\/",
+        "github_link": "https:\/\/github.com\/psf\/requests"
+    },
+    {
+        "download_count": 246176073,
+        "project": "setuptools",
+        "link": "https:\/\/pypi.org\/project\/setuptools\/",
+        "github_link": "https:\/\/github.com\/pypa\/setuptools"
+    },
+    {
+        "download_count": 235247237,
+        "project": "charset-normalizer",
+        "link": "https:\/\/pypi.org\/project\/charset-normalizer\/",
+        "github_link": "https:\/\/github.com\/Ousret\/charset_normalizer"
+    },
+    {
+        "download_count": 235188968,
+        "project": "typing-extensions",
+        "link": "https:\/\/pypi.org\/project\/typing-extensions\/",
+        "github_link": "https:\/\/github.com\/python\/typing\/discussions"
+    },
+    {
+        "download_count": 224495508,
+        "project": "awscli",
+        "link": "https:\/\/pypi.org\/project\/awscli\/",
+        "github_link": "https:\/\/github.com\/aws\/aws-cli"
+    },
+    {
+        "download_count": 220042614,
+        "project": "certifi",
+        "link": "https:\/\/pypi.org\/project\/certifi\/",
+        "github_link": "https:\/\/github.com\/certifi\/python-certifi"
+    },
+    {
+        "download_count": 201417158,
+        "project": "s3transfer",
+        "link": "https:\/\/pypi.org\/project\/s3transfer\/",
+        "github_link": "https:\/\/github.com\/boto\/s3transfer"
+    },
+    {
+        "download_count": 196057078,
+        "project": "python-dateutil",
+        "link": "https:\/\/pypi.org\/project\/python-dateutil\/",
+        "github_link": "https:\/\/github.com\/dateutil\/dateutil"
+    },
+    {
+        "download_count": 193995592,
+        "project": "idna",
+        "link": "https:\/\/pypi.org\/project\/idna\/",
+        "github_link": "https:\/\/github.com\/kjd\/idna"
+    },
+    {
+        "download_count": 185248986,
+        "project": "google-api-core",
+        "link": "https:\/\/pypi.org\/project\/google-api-core\/",
+        "github_link": "https:\/\/github.com\/googleapis\/python-api-core"
+    },
+    {
+        "download_count": 178376364,
+        "project": "six",
+        "link": "https:\/\/pypi.org\/project\/six\/",
+        "github_link": "https:\/\/github.com\/benjaminp\/six"
+    },
+    {
+        "download_count": 175397797,
+        "project": "pyyaml",
+        "link": "https:\/\/pypi.org\/project\/pyyaml\/",
+        "github_link": "https:\/\/github.com\/yaml\/pyyaml\/actions"
+    },
+    {
+        "download_count": 162597848,
+        "project": "cryptography",
+        "link": "https:\/\/pypi.org\/project\/cryptography\/",
+        "github_link": "https:\/\/github.com\/pyca\/cryptography\/"
+    },
+    {
+        "download_count": 153101966,
+        "project": "numpy",
+        "link": "https:\/\/pypi.org\/project\/numpy\/",
+        "github_link": "https:\/\/github.com\/numpy\/numpy"
+    },
+    {
+        "download_count": 152688988,
+        "project": "pip",
+        "link": "https:\/\/pypi.org\/project\/pip\/",
+        "github_link": "https:\/\/github.com\/pypa\/pip"
+    },
+    {
+        "download_count": 141268325,
+        "project": "aiobotocore",
+        "link": "https:\/\/pypi.org\/project\/aiobotocore\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/aiobotocore"
+    },
+    {
+        "download_count": 138359023,
+        "project": "importlib-metadata",
+        "link": "https:\/\/pypi.org\/project\/importlib-metadata\/",
+        "github_link": "https:\/\/github.com\/python\/importlib_metadata"
+    },
+    {
+        "download_count": 137236086,
+        "project": "packaging",
+        "link": "https:\/\/pypi.org\/project\/packaging\/",
+        "github_link": "https:\/\/github.com\/pypa\/packaging"
+    },
+    {
+        "download_count": 129699770,
+        "project": "zipp",
+        "link": "https:\/\/pypi.org\/project\/zipp\/",
+        "github_link": "https:\/\/github.com\/jaraco\/zipp"
+    },
+    {
+        "download_count": 128128472,
+        "project": "s3fs",
+        "link": "https:\/\/pypi.org\/project\/s3fs\/",
+        "github_link": "http:\/\/github.com\/fsspec\/s3fs\/"
+    },
+    {
+        "download_count": 125400479,
+        "project": "protobuf",
+        "link": "https:\/\/pypi.org\/project\/protobuf\/",
+        "github_link": "https:\/\/developers.google.com\/protocol-buffers\/"
+    },
+    {
+        "download_count": 119642971,
+        "project": "fsspec",
+        "link": "https:\/\/pypi.org\/project\/fsspec\/",
+        "github_link": "http:\/\/github.com\/fsspec\/filesystem_spec"
+    },
+    {
+        "download_count": 119405276,
+        "project": "pandas",
+        "link": "https:\/\/pypi.org\/project\/pandas\/",
+        "github_link": "https:\/\/github.com\/pandas-dev\/pandas"
+    },
+    {
+        "download_count": 114660295,
+        "project": "grpcio-status",
+        "link": "https:\/\/pypi.org\/project\/grpcio-status\/",
+        "github_link": "https:\/\/grpc.io"
+    },
+    {
+        "download_count": 111926826,
+        "project": "jmespath",
+        "link": "https:\/\/pypi.org\/project\/jmespath\/",
+        "github_link": "https:\/\/github.com\/jmespath\/jmespath.py"
+    },
+    {
+        "download_count": 109507807,
+        "project": "pyasn1",
+        "link": "https:\/\/pypi.org\/project\/pyasn1\/",
+        "github_link": "https:\/\/github.com\/pyasn1\/pyasn1"
+    },
+    {
+        "download_count": 108941928,
+        "project": "click",
+        "link": "https:\/\/pypi.org\/project\/click\/",
+        "github_link": "https:\/\/github.com\/pallets\/click\/"
+    },
+    {
+        "download_count": 108778019,
+        "project": "rsa",
+        "link": "https:\/\/pypi.org\/project\/rsa\/",
+        "github_link": "https:\/\/github.com\/sybrenstuvel\/python-rsa"
+    },
+    {
+        "download_count": 107894215,
+        "project": "jsonschema",
+        "link": "https:\/\/pypi.org\/project\/jsonschema\/",
+        "github_link": "https:\/\/github.com\/python-jsonschema\/jsonschema"
+    },
+    {
+        "download_count": 107773108,
+        "project": "pyjwt",
+        "link": "https:\/\/pypi.org\/project\/pyjwt\/",
+        "github_link": "https:\/\/github.com\/jpadilla\/pyjwt"
+    },
+    {
+        "download_count": 106221784,
+        "project": "pytz",
+        "link": "https:\/\/pypi.org\/project\/pytz\/",
+        "github_link": "http:\/\/pythonhosted.org\/pytz"
+    },
+    {
+        "download_count": 103933892,
+        "project": "attrs",
+        "link": "https:\/\/pypi.org\/project\/attrs\/",
+        "github_link": "https:\/\/github.com\/python-attrs\/attrs"
+    },
+    {
+        "download_count": 100721849,
+        "project": "markupsafe",
+        "link": "https:\/\/pypi.org\/project\/markupsafe\/",
+        "github_link": "https:\/\/github.com\/pallets\/markupsafe\/"
+    },
+    {
+        "download_count": 99417831,
+        "project": "cffi",
+        "link": "https:\/\/pypi.org\/project\/cffi\/",
+        "github_link": "http:\/\/cffi.readthedocs.org"
+    },
+    {
+        "download_count": 97228741,
+        "project": "colorama",
+        "link": "https:\/\/pypi.org\/project\/colorama\/",
+        "github_link": "https:\/\/github.com\/tartley\/colorama"
+    },
+    {
+        "download_count": 94218432,
+        "project": "pycparser",
+        "link": "https:\/\/pypi.org\/project\/pycparser\/",
+        "github_link": "https:\/\/github.com\/eliben\/pycparser"
+    },
+    {
+        "download_count": 93412936,
+        "project": "jinja2",
+        "link": "https:\/\/pypi.org\/project\/jinja2\/",
+        "github_link": "https:\/\/github.com\/pallets\/jinja\/"
+    },
+    {
+        "download_count": 89365479,
+        "project": "googleapis-common-protos",
+        "link": "https:\/\/pypi.org\/project\/googleapis-common-protos\/",
+        "github_link": "https:\/\/github.com\/googleapis\/python-api-common-protos"
+    },
+    {
+        "download_count": 84442506,
+        "project": "werkzeug",
+        "link": "https:\/\/pypi.org\/project\/werkzeug\/",
+        "github_link": "https:\/\/github.com\/pallets\/werkzeug\/"
+    },
+    {
+        "download_count": 81925006,
+        "project": "google-auth",
+        "link": "https:\/\/pypi.org\/project\/google-auth\/",
+        "github_link": "https:\/\/github.com\/googleapis\/google-auth-library-python"
+    },
+    {
+        "download_count": 81918676,
+        "project": "sqlalchemy",
+        "link": "https:\/\/pypi.org\/project\/sqlalchemy\/",
+        "github_link": "https:\/\/www.sqlalchemy.org"
+    },
+    {
+        "download_count": 80600277,
+        "project": "flask",
+        "link": "https:\/\/pypi.org\/project\/flask\/",
+        "github_link": "https:\/\/github.com\/pallets\/flask\/"
+    },
+    {
+        "download_count": 78057775,
+        "project": "cachetools",
+        "link": "https:\/\/pypi.org\/project\/cachetools\/",
+        "github_link": "https:\/\/github.com\/tkem\/cachetools\/"
+    },
+    {
+        "download_count": 75963795,
+        "project": "platformdirs",
+        "link": "https:\/\/pypi.org\/project\/platformdirs\/",
+        "github_link": "https:\/\/github.com\/platformdirs\/platformdirs"
+    },
+    {
+        "download_count": 75952420,
+        "project": "pydantic",
+        "link": "https:\/\/pypi.org\/project\/pydantic\/",
+        "github_link": "https:\/\/github.com\/pydantic\/pydantic"
+    },
+    {
+        "download_count": 75810226,
+        "project": "oauthlib",
+        "link": "https:\/\/pypi.org\/project\/oauthlib\/",
+        "github_link": "https:\/\/github.com\/oauthlib\/oauthlib"
+    },
+    {
+        "download_count": 71907359,
+        "project": "pyparsing",
+        "link": "https:\/\/pypi.org\/project\/pyparsing\/",
+        "github_link": "https:\/\/github.com\/pyparsing\/pyparsing\/"
+    },
+    {
+        "download_count": 71055786,
+        "project": "wrapt",
+        "link": "https:\/\/pypi.org\/project\/wrapt\/",
+        "github_link": "https:\/\/github.com\/GrahamDumpleton\/wrapt"
+    },
+    {
+        "download_count": 69853410,
+        "project": "docutils",
+        "link": "https:\/\/pypi.org\/project\/docutils\/",
+        "github_link": "https:\/\/docutils.sourceforge.io\/"
+    },
+    {
+        "download_count": 69079298,
+        "project": "pyarrow",
+        "link": "https:\/\/pypi.org\/project\/pyarrow\/",
+        "github_link": "https:\/\/github.com\/apache\/arrow"
+    },
+    {
+        "download_count": 66744245,
+        "project": "filelock",
+        "link": "https:\/\/pypi.org\/project\/filelock\/",
+        "github_link": "https:\/\/github.com\/tox-dev\/py-filelock"
+    },
+    {
+        "download_count": 66737344,
+        "project": "requests-oauthlib",
+        "link": "https:\/\/pypi.org\/project\/requests-oauthlib\/",
+        "github_link": "https:\/\/github.com\/requests\/requests-oauthlib"
+    },
+    {
+        "download_count": 65309492,
+        "project": "isodate",
+        "link": "https:\/\/pypi.org\/project\/isodate\/",
+        "github_link": "https:\/\/github.com\/gweis\/isodate\/"
+    },
+    {
+        "download_count": 64780309,
+        "project": "lxml",
+        "link": "https:\/\/pypi.org\/project\/lxml\/",
+        "github_link": "https:\/\/github.com\/lxml\/lxml"
+    },
+    {
+        "download_count": 64746929,
+        "project": "virtualenv",
+        "link": "https:\/\/pypi.org\/project\/virtualenv\/",
+        "github_link": "https:\/\/github.com\/pypa\/virtualenv"
+    },
+    {
+        "download_count": 62528086,
+        "project": "decorator",
+        "link": "https:\/\/pypi.org\/project\/decorator\/",
+        "github_link": "https:\/\/github.com\/micheles\/decorator"
+    },
+    {
+        "download_count": 62515102,
+        "project": "psutil",
+        "link": "https:\/\/pypi.org\/project\/psutil\/",
+        "github_link": "https:\/\/github.com\/giampaolo\/psutil"
+    },
+    {
+        "download_count": 62204503,
+        "project": "aiohttp",
+        "link": "https:\/\/pypi.org\/project\/aiohttp\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/aiohttp\/actions?query=workflow%3ACI"
+    },
+    {
+        "download_count": 61828425,
+        "project": "tomli",
+        "link": "https:\/\/pypi.org\/project\/tomli\/",
+        "github_link": "https:\/\/github.com\/hukkin\/tomli"
+    },
+    {
+        "download_count": 61573083,
+        "project": "async-timeout",
+        "link": "https:\/\/pypi.org\/project\/async-timeout\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/async-timeout\/actions"
+    },
+    {
+        "download_count": 61054814,
+        "project": "pyasn1-modules",
+        "link": "https:\/\/pypi.org\/project\/pyasn1-modules\/",
+        "github_link": "https:\/\/github.com\/pyasn1\/pyasn1-modules"
+    },
+    {
+        "download_count": 60685816,
+        "project": "grpcio",
+        "link": "https:\/\/pypi.org\/project\/grpcio\/",
+        "github_link": "https:\/\/github.com\/grpc\/grpc"
+    },
+    {
+        "download_count": 60149488,
+        "project": "exceptiongroup",
+        "link": "https:\/\/pypi.org\/project\/exceptiongroup\/",
+        "github_link": "https:\/\/github.com\/agronholm\/exceptiongroup"
+    },
+    {
+        "download_count": 58849752,
+        "project": "greenlet",
+        "link": "https:\/\/pypi.org\/project\/greenlet\/",
+        "github_link": "https:\/\/github.com\/python-greenlet\/greenlet\/"
+    },
+    {
+        "download_count": 58758135,
+        "project": "pluggy",
+        "link": "https:\/\/pypi.org\/project\/pluggy\/",
+        "github_link": "https:\/\/github.com\/pytest-dev\/pluggy"
+    },
+    {
+        "download_count": 57829869,
+        "project": "multidict",
+        "link": "https:\/\/pypi.org\/project\/multidict\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/multidict\/actions"
+    },
+    {
+        "download_count": 57491721,
+        "project": "azure-core",
+        "link": "https:\/\/pypi.org\/project\/azure-core\/",
+        "github_link": "https:\/\/github.com\/Azure\/azure-sdk-for-python\/tree\/main\/sdk\/core\/azure-core"
+    },
+    {
+        "download_count": 56777178,
+        "project": "yarl",
+        "link": "https:\/\/pypi.org\/project\/yarl\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/yarl\/"
+    },
+    {
+        "download_count": 56650761,
+        "project": "beautifulsoup4",
+        "link": "https:\/\/pypi.org\/project\/beautifulsoup4\/",
+        "github_link": "https:\/\/www.crummy.com\/software\/BeautifulSoup\/bs4\/"
+    },
+    {
+        "download_count": 56393591,
+        "project": "soupsieve",
+        "link": "https:\/\/pypi.org\/project\/soupsieve\/",
+        "github_link": "https:\/\/github.com\/facelessuser\/soupsieve"
+    },
+    {
+        "download_count": 56234840,
+        "project": "frozenlist",
+        "link": "https:\/\/pypi.org\/project\/frozenlist\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/frozenlist\/actions"
+    },
+    {
+        "download_count": 56026654,
+        "project": "et-xmlfile",
+        "link": "https:\/\/pypi.org\/project\/et-xmlfile\/",
+        "github_link": "https:\/\/foss.heptapod.net\/openpyxl\/et_xmlfile"
+    },
+    {
+        "download_count": 55859994,
+        "project": "openpyxl",
+        "link": "https:\/\/pypi.org\/project\/openpyxl\/",
+        "github_link": "https:\/\/openpyxl.readthedocs.io"
+    },
+    {
+        "download_count": 54192671,
+        "project": "pytest",
+        "link": "https:\/\/pypi.org\/project\/pytest\/",
+        "github_link": "https:\/\/github.com\/pytest-dev\/pytest"
+    },
+    {
+        "download_count": 53911801,
+        "project": "scipy",
+        "link": "https:\/\/pypi.org\/project\/scipy\/",
+        "github_link": "https:\/\/github.com\/scipy\/scipy"
+    },
+    {
+        "download_count": 53406246,
+        "project": "importlib-resources",
+        "link": "https:\/\/pypi.org\/project\/importlib-resources\/",
+        "github_link": "https:\/\/github.com\/python\/importlib_resources"
+    },
+    {
+        "download_count": 53109853,
+        "project": "tqdm",
+        "link": "https:\/\/pypi.org\/project\/tqdm\/",
+        "github_link": "https:\/\/github.com\/tqdm\/tqdm"
+    },
+    {
+        "download_count": 53050338,
+        "project": "pillow",
+        "link": "https:\/\/pypi.org\/project\/pillow\/",
+        "github_link": "https:\/\/github.com\/python-pillow\/Pillow"
+    },
+    {
+        "download_count": 51570388,
+        "project": "aiosignal",
+        "link": "https:\/\/pypi.org\/project\/aiosignal\/",
+        "github_link": "https:\/\/github.com\/aio-libs\/aiosignal\/actions"
+    },
+    {
+        "download_count": 51291453,
+        "project": "pyopenssl",
+        "link": "https:\/\/pypi.org\/project\/pyopenssl\/",
+        "github_link": "https:\/\/github.com\/pyca\/pyopenssl"
+    },
+    {
+        "download_count": 50959868,
+        "project": "websocket-client",
+        "link": "https:\/\/pypi.org\/project\/websocket-client\/",
+        "github_link": "https:\/\/github.com\/websocket-client\/websocket-client\/"
+    },
+    {
+        "download_count": 49066870,
+        "project": "coverage",
+        "link": "https:\/\/pypi.org\/project\/coverage\/",
+        "github_link": "https:\/\/github.com\/nedbat\/coveragepy"
+    },
+    {
+        "download_count": 49022897,
+        "project": "asn1crypto",
+        "link": "https:\/\/pypi.org\/project\/asn1crypto\/",
+        "github_link": "https:\/\/github.com\/wbond\/asn1crypto"
+    },
+    {
+        "download_count": 46192933,
+        "project": "google-cloud-core",
+        "link": "https:\/\/pypi.org\/project\/google-cloud-core\/",
+        "github_link": "https:\/\/github.com\/googleapis\/python-cloud-core"
+    },
+    {
+        "download_count": 45990234,
+        "project": "tabulate",
+        "link": "https:\/\/pypi.org\/project\/tabulate\/",
+        "github_link": "https:\/\/github.com\/astanin\/python-tabulate"
+    },
+    {
+        "download_count": 45561366,
+        "project": "google-api-python-client",
+        "link": "https:\/\/pypi.org\/project\/google-api-python-client\/",
+        "github_link": "https:\/\/github.com\/googleapis\/google-api-python-client\/"
+    },
+    {
+        "download_count": 45407480,
+        "project": "pygments",
+        "link": "https:\/\/pypi.org\/project\/pygments\/",
+        "github_link": "https:\/\/github.com\/pygments\/pygments"
+    },
+    {
+        "download_count": 44335112,
+        "project": "google-cloud-storage",
+        "link": "https:\/\/pypi.org\/project\/google-cloud-storage\/",
+        "github_link": "https:\/\/github.com\/googleapis\/python-storage"
+    },
+    {
+        "download_count": 44211537,
+        "project": "chardet",
+        "link": "https:\/\/pypi.org\/project\/chardet\/",
+        "github_link": "https:\/\/github.com\/chardet\/chardet"
+    },
+    {
+        "download_count": 43143612,
+        "project": "distlib",
+        "link": "https:\/\/pypi.org\/project\/distlib\/",
+        "github_link": "https:\/\/github.com\/pypa\/distlib"
+    },
+    {
+        "download_count": 41899366,
+        "project": "requests-toolbelt",
+        "link": "https:\/\/pypi.org\/project\/requests-toolbelt\/",
+        "github_link": "https:\/\/github.com\/requests\/toolbelt"
+    },
+    {
+        "download_count": 41317031,
+        "project": "iniconfig",
+        "link": "https:\/\/pypi.org\/project\/iniconfig\/",
+        "github_link": "https:\/\/github.com\/pytest-dev\/iniconfig"
+    },
+    {
+        "download_count": 40256059,
+        "project": "itsdangerous",
+        "link": "https:\/\/pypi.org\/project\/itsdangerous\/",
+        "github_link": "https:\/\/github.com\/pallets\/itsdangerous\/"
+    },
+    {
+        "download_count": 40215189,
+        "project": "pynacl",
+        "link": "https:\/\/pypi.org\/project\/pynacl\/",
+        "github_link": "https:\/\/github.com\/pyca\/pynacl\/"
+    },
+    {
+        "download_count": 38980469,
+        "project": "paramiko",
+        "link": "https:\/\/pypi.org\/project\/paramiko\/",
+        "github_link": "https:\/\/github.com\/paramiko\/paramiko"
+    },
+    {
+        "download_count": 38850042,
+        "project": "deprecated",
+        "link": "https:\/\/pypi.org\/project\/deprecated\/",
+        "github_link": "https:\/\/github.com\/tantale\/deprecated"
+    },
+    {
+        "download_count": 38684058,
+        "project": "pymysql",
+        "link": "https:\/\/pypi.org\/project\/pymysql\/",
+        "github_link": "https:\/\/github.com\/PyMySQL\/PyMySQL"
+    }
+]

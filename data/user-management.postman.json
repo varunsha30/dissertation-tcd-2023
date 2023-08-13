@@ -1,0 +1,458 @@
+{
+  "info": {
+    "_postman_id": "a654a16a-f972-420c-aec6-2551ef32d200",
+    "name": "IDv2: User management",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Manage",
+      "description": "Manage APIs",
+      "item": [
+        {
+          "name": "Get user management permissions",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage",
+              "query": [
+                {
+                  "key": "privileges",
+                  "value": "{{privileges}}",
+                  "disabled": true
+                }
+              ],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The user account to manage",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Returns the set of permissions you have for managing the specified Atlassian account",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Profile",
+      "description": "Profile APIs",
+      "item": [
+        {
+          "name": "Get profile",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/profile",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The ID of the user",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Returns information about a single Atlassian account by ID",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update profile",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/profile",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The ID of the user to update",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "PATCH",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Updates fields in a user account. The `profile.write` privilege details which fields you can change.",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            },
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Email",
+      "description": "Email APIs",
+      "item": [
+        {
+          "name": "Set email\n",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/email",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The ID of the user\n",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "description": "Sets the specified user's email address. Before using this endpoint, you must [verify the target domain](https://confluence.atlassian.com/x/gjcWN) as the new email address will be considered verified.\nThe permission to make use of this resource is exposed by the `email.set` privilege.\nThis call invalidates all active sessions.\n",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            },
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Api Tokens",
+      "description": "Api Token APIs",
+      "item": [
+        {
+          "name": "Get API tokens",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/api-tokens",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The ID of the user",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "Gets the API tokens owned by the specified user.",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete API token",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/api-tokens/:tokenId",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The ID of the user",
+                  "disabled": false
+                },
+                {
+                  "key": "tokenId",
+                  "value": "{{tokenId}}",
+                  "description": "The ID of the API token",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "description": "Deletes a specifid API token by ID.",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Lifecycle",
+      "description": "Lifecycle APIs",
+      "item": [
+        {
+          "name": "Deactivate a user",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/lifecycle/disable",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The ID of the user\n",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "description": "\nDeactivate the specified user account. The permission to make use of this resource is exposed by the `lifecycle.enablement` privilege.\nYou can optionally set a message associated with the block. If none is supplied, a default message will be used.\n",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            },
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Activate a user",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/lifecycle/enable",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "The unique identifier of the user to activate.\n",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "description": "\nActivates the specified user account. The permission to make use of this resource is exposed by the `lifecycle.enablement` privilege.\n",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete account",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/lifecycle/delete",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "Unique ID of the user's account that you are deleting. Use the [Get users in an organization API](https://developer.atlassian.com/cloud/admin/organization/rest/api-group-users/#api-orgs-orgid-users-get) to get the accountId.\n",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "This API will:\n- Delete a managed account from Atlassian Administration.\n- Withdraw complete access to all products and services listed in Atlassian Administration.\n- Remove reference to the account from all lists under Directory in Atlassian Administration.\n\nSpecifications:\n- Deleting an account is permanent. If you think you’ll need the account again, we recommend you [deactivate](https://support.atlassian.com/user-management/docs/deactivate-a-managed-account/)it instead.\n- Before you permanently delete the account, you’ll have a 14-day grace period, during which the account will appear as temporarily deactivated.\n\nLearn more about [deleting a managed account](https://support.atlassian.com/user-management/docs/delete-a-managed-account/).\n\nLearn the fastest way to get the paramaters and delete account with a detailed [tutorial](https://developer.atlassian.com/cloud/admin/user-management/delete-managed-account/#delete-account). \n\nThe permission to make use of this resource is exposed by the `lifecycle.delete` privilege. Learn more about [Get user management permissions API](https://developer.atlassian.com/cloud/admin/user-management/rest/api-group-manage/#api-users-account-id-manage-get) to manage the specified user.\n",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cancel delete account",
+          "request": {
+            "url": {
+              "protocol": "{{protocol}}",
+              "host": "{{host}}",
+              "path": "{{basePath}}users/:account_id/manage/lifecycle/cancel-delete",
+              "query": [],
+              "variable": [
+                {
+                  "key": "account_id",
+                  "value": "{{account_id}}",
+                  "description": "Unique ID of the user's account that you are deleting. Use the [Get users in an organization API](https://developer.atlassian.com/cloud/admin/organization/rest/api-group-users/#api-orgs-orgid-users-get) to get the accountId.\n",
+                  "disabled": false
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "description": "",
+                "disabled": false,
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "description": "This API will:\n - Cancel the scheduled deletion of the specified managed account.\n - Restore and activate the user’s account.\n \n Specifications:\n - You can cancel the deletion within the 14-day grace period of deleting a managed account. After that the account is permanently deleted.\n \n The permission to make use of this resource is exposed by the `lifecycle.delete` privilege. Learn more about [Get user management permissions API](https://developer.atlassian.com/cloud/admin/user-management/rest/api-group-manage/#api-users-account-id-manage-get) to manage the specified user.\n",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "key": "token",
+                "type": "string",
+                "value": "{{BEARER_TOKEN}}"
+              }
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "protocol",
+      "name": "Protocol",
+      "description": "The HTTP Protocol that should be used for this REST API.",
+      "type": "string",
+      "value": "https"
+    },
+    {
+      "key": "host",
+      "name": "Host",
+      "description": "The HTTP host that should be used for this REST API.",
+      "type": "string",
+      "value": "api.atlassian.com"
+    },
+    {
+      "key": "basePath",
+      "name": "Base Path",
+      "description": "The path, after the host, of the base of the REST API.",
+      "type": "string",
+      "value": ""
+    }
+  ]
+}
